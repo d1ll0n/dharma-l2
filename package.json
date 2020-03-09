@@ -1,0 +1,21 @@
+{
+  "name": "dharma-l2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape tests/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.9.0",
+    "bn.js": "^5.1.1",
+    "ethereumjs-util": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/tape": "^4.2.34",
+    "tape": "^4.13.2"
+  }
+}
